@@ -1,0 +1,1 @@
+        <h3><a href="{{route('/teachers/{id}/addcourse', $id= $teacher->id)}}">{{$course->courseCode}} - {{$course->courseName}} ({{$course->courseType}})</a></h3> </div>
